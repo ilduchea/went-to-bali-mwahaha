@@ -8,6 +8,7 @@
         2,
         2,
         null,
+        2,
         null
       ],
       "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/rails_helper.rb": [
@@ -297,8 +298,6 @@
         1,
         1,
         1,
-        1,
-        1,
         null,
         1,
         0,
@@ -355,11 +354,17 @@
         1,
         null,
         1,
+        null,
+        null,
+        1,
         0,
         0,
         0,
         0,
         0,
+        0,
+        0,
+        null,
         null,
         null,
         1,
@@ -375,6 +380,8 @@
         0,
         0,
         0,
+        0,
+        null,
         null,
         null,
         1,
@@ -390,7 +397,14 @@
         null,
         1,
         0,
+        null,
+        null,
+        1,
         0,
+        0,
+        0,
+        0,
+        null,
         null,
         null,
         1,
@@ -483,6 +497,10 @@
         null,
         1,
         0,
+        0,
+        null,
+        null,
+        null,
         null,
         null,
         1,
@@ -496,9 +514,13 @@
         1,
         1,
         1,
+        null,
+        1,
         null
       ],
       "/home/ilduchea/Epicodus/went-to-bali-mwahaha/app/models/product.rb": [
+        1,
+        1,
         1,
         1,
         null
@@ -570,6 +592,6 @@
         null
       ]
     },
-    "timestamp": 1500050232
+    "timestamp": 1500072777
   }
 }
