@@ -70,6 +70,7 @@
         null,
         null,
         1,
+        1,
         null,
         null,
         1,
@@ -539,6 +540,8 @@
         2,
         2,
         null,
+        2,
+        null,
         null
       ],
       "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/models/product_spec.rb": [
@@ -567,6 +570,6 @@
         null
       ]
     },
-    "timestamp": 1500049334
+    "timestamp": 1500050232
   }
 }
