@@ -1,11 +1,16 @@
 class OrderItemsController < ApplicationController
 
+  def new
+  end
+
   def create
     @order = current_order
     @item = @order.order_items.new(item_params)
     @order.save
     session[:order_id] = @order.id
-    redirect_to products_path
+    respond_to do |f|
+      f.js { render 'order_items/update_cart_item_total.js.erb' }
+    end
   end
 
   def update
