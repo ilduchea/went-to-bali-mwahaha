@@ -39,9 +39,9 @@ To set up:
       * Add further AJAX functionality where it might be useful.
       * Fix the row height for products, which can quickly become uneven.
       * Ensure that users can't order a negative number of items.
+      * Add flash messages for signing up, signing in and signing out.
 
     * Not yet Implemented
-      * Add flash messages for signing up, signing in and signing out.
       * Add product update and delete functionality for admins.
       * Add admin flash messages for adding, updating and deleting products.
       * Allow other than whole dollar amounts for admin product creation (for instance, 3.99).
