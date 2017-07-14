@@ -5,9 +5,7 @@
     <% @products.each do |product| %>
       <div class="col s4">
         <h4><%= link_to product.name, product_path(product), remote: true %></h4>
-        <p><%= product.description %></p>
-        <p><%= number_to_currency product.price %></p>
-        <%= render partial: "order_items/form", locals: {product: product} %>
+        <div id="product_detail_<%= product.id %>"></div>
       </div>
     <% end %>
   </div>
