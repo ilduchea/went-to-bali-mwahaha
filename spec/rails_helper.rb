@@ -57,6 +57,7 @@ RSpec.configure do |config|
 
   # spec/support/factory_girl.rb
   config.include FactoryGirl::Syntax::Methods
+  config.include Shoulda::Callback::Matchers::ActiveModel
 end
 
 Shoulda::Matchers.configure do |config|
