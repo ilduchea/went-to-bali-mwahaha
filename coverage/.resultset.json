@@ -1,10 +1,11 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/models/product_spec.rb": [
+      "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/models/order_spec.rb": [
         1,
         null,
         1,
+        2,
         2,
         null,
         null
@@ -531,6 +532,14 @@
         null,
         null
       ],
+      "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/models/product_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
       "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/models/user_spec.rb": [
         1,
         null,
@@ -549,6 +558,6 @@
         null
       ]
     },
-    "timestamp": 1500048147
+    "timestamp": 1500049225
   }
 }
