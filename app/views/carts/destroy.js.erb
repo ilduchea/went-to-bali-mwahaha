@@ -1,0 +1,8 @@
+console.log('deleted');
+$('#cart_item_<%= @item.id %>').remove();
+if (<%= @order.order_items.any? %>) {
+  $('#cart_total').html('Your Total: <%= number_to_currency current_order.total_price %>');
+} else {
+  $('#finalize').remove();
+  $('#cart_total').html('<p>Your shopping cart is empty.</p>');
+}
