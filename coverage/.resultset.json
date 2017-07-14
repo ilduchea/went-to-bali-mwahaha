@@ -1,14 +1,30 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/models/order_items_spec.rb": [
+      "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/features/signup_feature_spec.rb": [
         1,
         null,
         1,
-        2,
-        2,
+        1,
         null,
-        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/rails_helper.rb": [
@@ -300,7 +316,7 @@
         1,
         null,
         1,
-        0,
+        7,
         null,
         null,
         1,
@@ -308,7 +324,7 @@
         null,
         null,
         1,
-        0,
+        6,
         null,
         null,
         1,
@@ -323,7 +339,7 @@
       "/home/ilduchea/Epicodus/went-to-bali-mwahaha/app/helpers/cart_helper.rb": [
         1,
         1,
-        0,
+        6,
         null,
         null
       ],
@@ -396,7 +412,7 @@
         1,
         null,
         1,
-        0,
+        3,
         null,
         null,
         1,
@@ -465,19 +481,21 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
+        2,
+        2,
+        1,
+        1,
+        1,
         null,
-        0,
+        1,
+        1,
         null,
         null,
         null,
         1,
         null,
         1,
-        0,
+        2,
         null,
         null,
         null
@@ -546,6 +564,33 @@
         null,
         null
       ],
+      "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/factories.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/home/ilduchea/Epicodus/went-to-bali-mwahaha/config/routes.rb": [
         1,
         null,
@@ -564,6 +609,16 @@
         null,
         1,
         null,
+        null
+      ],
+      "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/models/order_items_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null,
+        2,
         null
       ],
       "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/models/order_spec.rb": [
@@ -607,6 +662,6 @@
         null
       ]
     },
-    "timestamp": 1500074014
+    "timestamp": 1500076398
   }
 }
