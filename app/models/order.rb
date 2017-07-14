@@ -5,7 +5,11 @@ class Order < ApplicationRecord
   before_save :calculate_total
 
   def calculate_total
-    self.total_price = order_items.collect { |item| item.product.price * item.quantity }.sum
+    if order_items
+      self.total_price = order_items.collect { |item| item.product.price * item.quantity }.sum
+    else
+      # add error notice
+    end
   end
 
   def finalize(user)
