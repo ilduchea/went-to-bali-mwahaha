@@ -77,6 +77,7 @@ To set up:
     * Implemented
       * Add Paperclip for product image upload.
       * Add further AJAX functionality where it might be useful.
+      * Fix the row height for products, which can quickly become uneven.
 
     * Not yet Implemented
       * Ensure that users can't order a negative number of items.
@@ -88,7 +89,6 @@ To set up:
       * Add Stripe so users can pay when finalizing orders.
       * Add password validations to ensure a user's password is sufficiently complex.
       * Add admin links to navbar so admins can easily add, update and delete products.
-      * Fix the row height for products, which can quickly become uneven.
       * Add integration testing for AJAX functionality.
 
 4. UX/UI
