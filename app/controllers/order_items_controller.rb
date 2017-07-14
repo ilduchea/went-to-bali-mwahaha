@@ -4,6 +4,7 @@ class OrderItemsController < ApplicationController
   end
 
   def create
+    @product = Product.find(item_params['product_id'].to_i)
     @order = current_order
     @item = @order.order_items.new(item_params)
     @order.save

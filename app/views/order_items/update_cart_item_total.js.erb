@@ -1,1 +1,3 @@
-$('#cart_link').html('<%= link_to "Cart | Total items: #{ @order.order_items.length }", cart_path %>')
+$('#cart_link').html('<%= link_to "Cart | Total items: #{ @order.order_items.length }", cart_path %>');
+$('#product_detail_<%= @product.id %>').html('');
+$('#product_link_<%= @product.id %>').html('<%= link_to @product.name, product_path(@product), remote: true %>');

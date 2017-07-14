@@ -1,6 +1,6 @@
 console.log('deleted');
 $('#cart_item_<%= @item.id %>').remove();
-$('#cart_link').html('<%= link_to "Cart | Total items: #{ @order.order_items.length }", cart_path %>')
+$('#cart_link').html('<%= link_to "Cart | Total items: #{ @order.order_items.length }", cart_path %>');
 if (<%= @order.order_items.any? %>) {
   $('#cart_total').html('Your Total: <%= number_to_currency current_order.total_price %>');
 } else {
