@@ -76,6 +76,7 @@ To set up:
   * Refactor and additional features
     * Implemented
       * Add Paperclip for product image upload.
+      * Add further AJAX functionality where it might be useful.
 
     * Not yet Implemented
       * Ensure that users can't order a negative number of items.
@@ -89,7 +90,6 @@ To set up:
       * Add admin links to navbar so admins can easily add, update and delete products.
       * Fix the row height for products, which can quickly become uneven.
       * Add integration testing for AJAX functionality.
-      * Add further AJAX functionality where it might be useful.
 
 4. UX/UI
   * Include and modify bootstrap/materialize/Sass etc.

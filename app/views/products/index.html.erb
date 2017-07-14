@@ -1,13 +1,12 @@
 
 <div class="row">
   <h3>Products</h3>
-  <div class="section">
     <% @products.each do |product| %>
-      <div class="col s4">
+      <div class="col m4 product-detail">
         <h4 id="product_link_<%= product.id %>"><%= link_to product.name, product_path(product), remote: true %></h4>
+        <%= image_tag product.image.url, class: 'image', id: "product_image_#{product.id}" %>
         <div id="product_detail_<%= product.id %>"></div>
       </div>
     <% end %>
-  </div>
 </div>
 <div id="product_detail"></div>

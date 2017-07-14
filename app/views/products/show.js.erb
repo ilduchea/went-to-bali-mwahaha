@@ -1,6 +1,8 @@
 $('#product_link_<%= @product.id %>').html('<%= @product.name %>');
+$('#product_image_<%= @product.id %>').hide();
 $('#product_detail_<%= @product.id %>').html('<%= j render(@product) %>');
 $('#product_link_<%= @product.id %>').click(function() {
   $('#product_detail_<%= @product.id %>').html('');
   $('#product_link_<%= @product.id %>').html('<%= link_to @product.name, product_path(@product), remote: true %>');
+  $('#product_image_<%= @product.id %>').show();
 });
