@@ -1,10 +1,10 @@
 
-<div class="row" id="product_list">
+<div class="row">
   <h3>Products</h3>
   <div class="section">
     <% @products.each do |product| %>
       <div class="col s4">
-        <h4><%= link_to product.name, product_path(product), remote: true %></h4>
+        <h4 id="product_link_<%= product.id %>"><%= link_to product.name, product_path(product), remote: true %></h4>
         <div id="product_detail_<%= product.id %>"></div>
       </div>
     <% end %>
