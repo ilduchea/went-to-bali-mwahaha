@@ -40,12 +40,12 @@ To set up:
       * Fix the row height for products, which can quickly become uneven.
       * Ensure that users can't order a negative number of items.
       * Add flash messages for signing up, signing in and signing out.
+      * Add product validations.
 
     * Not yet Implemented
       * Add product update and delete functionality for admins.
       * Add admin flash messages for adding, updating and deleting products.
       * Allow other than whole dollar amounts for admin product creation (for instance, 3.99).
-      * Add product validations.
       * Add Stripe so users can pay when finalizing orders.
       * Add password validations to ensure a user's password is sufficiently complex.
       * Add admin links to navbar so admins can easily add, update and delete products.

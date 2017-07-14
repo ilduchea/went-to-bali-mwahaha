@@ -438,11 +438,20 @@
         0,
         0,
         null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        0,
         0,
         null,
         null,
         null,
         1,
+        0,
+        null,
         0,
         0,
         null,
@@ -523,6 +532,8 @@
         1,
         1,
         1,
+        null,
+        1,
         null
       ],
       "/home/ilduchea/Epicodus/went-to-bali-mwahaha/app/models/user.rb": [
@@ -572,6 +583,10 @@
         1,
         2,
         null,
+        2,
+        2,
+        2,
+        null,
         null
       ],
       "/home/ilduchea/Epicodus/went-to-bali-mwahaha/spec/models/user_spec.rb": [
@@ -592,6 +607,6 @@
         null
       ]
     },
-    "timestamp": 1500072777
+    "timestamp": 1500074014
   }
 }
